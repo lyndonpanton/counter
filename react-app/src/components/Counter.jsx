@@ -2,11 +2,6 @@ import './css/Counter.css'
 import { useState } from "react";
 
 const Counter = () => {
-    // const [count, setCount] = useState(0, () => {
-    //     const localCount = localStorage.getItem("count");
-    //     return localCount || 0;
-    // });
-
     const [count, setCount] = useState(localStorage.getItem("count") || 0);
 
     function decrementCount() {
