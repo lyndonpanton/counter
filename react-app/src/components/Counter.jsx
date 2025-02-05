@@ -1,3 +1,4 @@
+import './css/Counter.css'
 import { useState } from "react";
 
 const Counter = () => {
@@ -16,14 +17,14 @@ const Counter = () => {
     }
 
     return (
-        <>
+        <article>
             <p>{ count }</p>
-            <>
+            <section className="buttons">
                 <button onClick = { decrementCount }>-</button>
                 <button onClick = { resetCount }>Reset</button>
                 <button onClick = { incrementCount }>+</button>
-            </>
-        </>
+            </section>
+        </article>
     )
 };
 

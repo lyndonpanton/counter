@@ -2,9 +2,9 @@ import './css/Header.css'
 
 const Header = () => {
     return (
-        <>
+        <header>
             <h1>Counter</h1>
-        </>
+        </header>
     );
 };
 
