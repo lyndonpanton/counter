@@ -1,0 +1,13 @@
+.fa-vite {
+    width: 1em;
+    height: auto;
+}
+
+.technology-icons {
+    display: inline;
+}
+
+.technology-icons i {
+    margin-left: 5px;
+    margin-right: 5px;
+}

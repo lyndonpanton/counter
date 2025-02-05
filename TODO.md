@@ -1,10 +1,13 @@
 # Todo
 
-- Adapt for multiple screen sizes
-- Add links to first party websites
+- [ ] Adapt for multiple screen sizes
+- [ ] Add links to first party websites
     - GitHub
-- Add links to third party websites
+- [ ] Add links to third party websites
     - React
     - vite
-    - cssfontstack
-- Add links to other projects
+    - Fontawesome
+- [ ] Add links to other projects
+- [x] Change the title
+- [ ] Change the tab icon
+- [ ] Add animations to icons
