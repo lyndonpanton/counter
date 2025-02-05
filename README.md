@@ -2,7 +2,7 @@
 
 ## Description
 
-An application that allows a user to increment, decrement, and reset a counter.
+An application that allows users to increment, decrement, and reset a counter.
 
 ## Credits
 
