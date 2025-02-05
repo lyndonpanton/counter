@@ -1,8 +1,8 @@
 const Social = () => {
     return (
-        <>
-            <p>My Websites: {/* font awesome icons */}</p>
-        </>
+        <div id="social" className="social-icons">
+            <i className="fa-brands fa-github"></i>
+        </div>
     );
 };
 

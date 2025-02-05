@@ -1,8 +1,12 @@
+import './css/ExternalLinks.css'
+
 const Projects = () => {
     return (
-        <>
-            <p>More applications: {/* Links to other projects*/}</p>
-        </>
+        <div id="projects" className="external-icons">
+            <span>Image Gallery</span>
+            <span>Todo List</span>
+            <span>Word Counter</span>
+        </div>
     );
 };
 
