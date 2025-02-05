@@ -5,14 +5,14 @@ const Counter = () => {
     const [count, setCount] = useState(localStorage.getItem("count") || 0);
 
     function decrementCount() {
-        let updatedCount = count - 1;
+        let updatedCount = parseInt(count) - 1;
         setCount(updatedCount);
 
         updateLocalStorage(updatedCount);
     }
 
     function incrementCount() {
-        let updatedCount = count + 1;
+        let updatedCount = parseInt(count) + 1;
         setCount(updatedCount);
 
         updateLocalStorage(updatedCount);
