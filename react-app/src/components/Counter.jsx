@@ -2,18 +2,34 @@ import './css/Counter.css'
 import { useState } from "react";
 
 const Counter = () => {
-    const [count, setCount] = useState(0);
+    // const [count, setCount] = useState(0, () => {
+    //     const localCount = localStorage.getItem("count");
+    //     return localCount || 0;
+    // });
+
+    const [count, setCount] = useState(localStorage.getItem("count") || 0);
 
     function decrementCount() {
-        setCount(count - 1);
+        let updatedCount = count - 1;
+        setCount(updatedCount);
+
+        updateLocalStorage(updatedCount);
     }
 
     function incrementCount() {
-        setCount(count + 1);
+        let updatedCount = count + 1;
+        setCount(updatedCount);
+
+        updateLocalStorage(updatedCount);
     }
 
     function resetCount() {
         setCount(0);
+        updateLocalStorage(0);
+    }
+
+    function updateLocalStorage(newCount) {
+        localStorage.setItem("count", newCount);
     }
 
     return (
