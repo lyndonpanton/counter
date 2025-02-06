@@ -8,8 +8,8 @@ const Footer = () => {
 
     return (
         <footer>
-            <Technology />
             <Social />
+            <Technology />
             <Projects />
             <p>&copy; { year } | Lyndon Mykal Panton | All Rights Reserved</p>
         </footer>
