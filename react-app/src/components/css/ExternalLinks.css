@@ -1,11 +1,46 @@
+.external-icon {
+    font-size: 4em;
+}
+
 .fa-vite {
     width: 1em;
     height: auto;
 }
 
+.project-link {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+.social-icon, .technology-icon {
+    color: white;
+}
+
+.social-icon-github:hover {
+    color: magenta;
+}
+
+.technology-icon-fontawesome:hover {
+    color: #538DD7;
+}
+
 .technology-icons {
     display: inline;
 }
+
+.technology-icon-react:hover {
+    color: #61DBFB
+}
+
+/* .technology-icon-vite:hover {
+    color: #F4C01B
+} */
 
 .external-icons i {
     margin-left: 5px;
@@ -17,4 +52,14 @@
     justify-content: space-around;
 
     margin: 30px 0;
+}
+
+/* Tablet, Laptop */
+@media screen and (max-width: 1000px) {
+    /* external-icon, fa-vite */
+}
+
+/* Phone */
+@media screen and (max-width: 500px) {
+    
 }

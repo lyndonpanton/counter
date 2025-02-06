@@ -1,11 +1,23 @@
 import './css/ExternalLinks.css'
 
 const Technology = () => {
+    const url = {
+        react: "https://react.dev/",
+        vite: "https://vite.dev/",
+        fontawesome: "https://fontawesome.com/"
+    };
+    
     return (
         <div id="technology" className="external-icons">
-            <i className="fa-brands fa-react"></i>
-            <img className="fa-vite" src="/vite.svg" />
-            <i className="fa-solid fa-font-awesome"></i>
+            <a className="external-icon technology-icon technology-icon-react" href={ url.react } target="_blank">
+                <i className="fa-brands fa-react"></i>
+            </a>
+            <a className="external-icon technology-icon technology-icon-vite" href={ url.vite } target="_blank">
+                <img className="fa-vite" src="/vite.svg" />
+            </a>
+            <a className="external-icon technology-icon technology-icon-fontawesome" href={url.fontawesome } target="_blank">
+                <i className="fa-solid fa-font-awesome"></i>
+            </a>
         </div>
     );
 };
