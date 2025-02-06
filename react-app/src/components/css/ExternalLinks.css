@@ -1,5 +1,26 @@
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .external-icon {
     font-size: 4em;
+}
+
+.fa-react {
+    animation-name: rotation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .fa-vite {
