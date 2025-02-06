@@ -21,10 +21,11 @@
 }
 
 .fa-react {
-    animation-name: rotation;
+    /* animation-name: rotation;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: linear; */
+    animation: rotation 10s infinite linear;
 }
 
 .fa-react:hover {
