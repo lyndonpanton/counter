@@ -13,7 +13,7 @@ const Technology = () => {
                 <i className="fa-brands fa-react"></i>
             </a>
             <a className="external-icon technology-icon technology-icon-vite" href={ url.vite } target="_blank">
-                <img className="fa-vite" src="/vite.svg" />
+                <i class="fa-solid fa-bolt-lightning"></i>
             </a>
             <a className="external-icon technology-icon technology-icon-fontawesome" href={url.fontawesome } target="_blank">
                 <i className="fa-solid fa-font-awesome"></i>
